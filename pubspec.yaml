@@ -15,7 +15,6 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.5
-  wakelock: 
   meta: ^1.8.0
   flutter_widget_from_html_core: ^0.8.5+3
   visibility_detector: ^0.3.3
@@ -29,6 +28,11 @@ dev_dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
+  wakelock:
+    git:
+      url: git@github.com:formigas/wakelock.git
+      path: wakelock/
+      ref: main
 
 flutter:
   plugin:
