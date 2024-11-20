@@ -30,7 +30,7 @@ dev_dependencies:
     sdk: flutter
   wakelock:
     git:
-      url: git@github.com:formigas/wakelock.git
+      url: https://github.com/formigas/wakelock.git
       path: wakelock/
       ref: main
 
